@@ -7,6 +7,7 @@ public class ServiceImpl implements Service {
 		System.out.println("platanium Account");
 	}
 
+	
 	public static void main(String[] args) {
 		ServiceImpl service = new ServiceImpl();
 		service.simpleAccount();
