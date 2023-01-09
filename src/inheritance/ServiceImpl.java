@@ -1,5 +1,6 @@
 package inheritance;
 
+
 public class ServiceImpl implements Service {
 
 	@Override
@@ -11,5 +12,6 @@ public class ServiceImpl implements Service {
 	public static void main(String[] args) {
 		ServiceImpl service = new ServiceImpl();
 		service.simpleAccount();
+		
 	}
 }
